@@ -94,7 +94,7 @@
             <form class="login100-form validate-form" method="POST" action="{{ route('login') }}">
                 @csrf
                 <span class="login100-form-title p-b-37">
-                    <img src="Site/img/logo.png" alt="Logo" width="220" >
+                    <img src="Site/img/logo/logo.png" alt="Logo" width="220" >
                 </span>
                 <!-- Session Status -->
                 <x-auth-session-status class="mb-4 alert alert-info" :status="session('status')" />
